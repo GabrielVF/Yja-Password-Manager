@@ -1,0 +1,19 @@
+#tag FileTypeSet
+	#tag FileType
+		CodeName=BackupFile
+		DocIcon=Yja-Password-Manager.xojo_resources;&h0
+		Extension=pmbk
+		Flags=&h2
+		MacCreator=
+		MacType=
+		Name=Password Manager Backup
+		UTI=com.gabrielvillena.xjsecrets-Password-Manager-Backup
+		UTIConformsTo=, public.data
+		Description=
+		MimeType=
+		Imported=False
+		HandlerRank=&h3
+		UTIPhysicalType=public.data
+	#tag EndFileType
+
+#tag EndFileTypeSet
