@@ -41,7 +41,7 @@ Personally, I’ve always believed that a good user interface is like a joke—i
 
 ## Install
 
-- [Download](https://drive.google.com/file/d/1RaOcNsnxLYigRynvZX2tZ4SqFfBTzf6i/view?usp=share_link), unzip, and drag the app to Applications folder. 
+- [Download](https://github.com/GabrielVF/Yja-Password-Manager/releases/download/v1.0.0/YjaPasswordManager.app.zip), and drag the app to Applications folder. 
 
 ---
 
