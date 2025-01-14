@@ -41,7 +41,7 @@ Personally, I’ve always believed that a good user interface is like a joke—i
 
 ## Install
 
-- [Download](https://github.com/GabrielVF/Yja-Password-Manager/releases/download/v1.0.0/YjaPasswordManager.app.zip), and drag the app to Applications folder. 
+- [Download on the Mac App Store](https://apps.apple.com/es/app/y-ja-password-manager/id6740349712?mt=12). 
 
 ---
 
