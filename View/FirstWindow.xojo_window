@@ -221,7 +221,7 @@ Begin DesktopWindow FirstWindow
       TabStop         =   True
       Text            =   "New Vault"
       TextAlignment   =   2
-      TextColor       =   &c0000FF00
+      TextColor       =   &c0433FF00
       Tooltip         =   ""
       Top             =   315
       Transparent     =   True
@@ -644,14 +644,14 @@ End
 	#tag EndEvent
 	#tag Event
 		Sub MouseEnter()
-		  Me.TextColor = RGB(0,0,150)
+		  Me.TextColor = RGB(4,45,255)
 		  MouseCursor = System.Cursors.FingerPointer
 		  
 		End Sub
 	#tag EndEvent
 	#tag Event
 		Sub MouseExit()
-		  Me.TextColor = RGB(0,0,255)
+		  Me.TextColor = RGB(4,51,255)
 		  MouseCursor = System.Cursors.StandardPointer
 		End Sub
 	#tag EndEvent

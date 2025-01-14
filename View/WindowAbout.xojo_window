@@ -10,7 +10,7 @@ Begin DesktopWindow WindowAbout
    HasFullScreenButton=   False
    HasMaximizeButton=   False
    HasMinimizeButton=   False
-   Height          =   498
+   Height          =   512
    ImplicitInstance=   True
    MacProcID       =   0
    MaximumHeight   =   32000
@@ -23,7 +23,7 @@ Begin DesktopWindow WindowAbout
    Title           =   "Y,ja... about"
    Type            =   1
    Visible         =   True
-   Width           =   499
+   Width           =   500
    Begin DesktopCanvas Canvas_logo
       AllowAutoDeactivate=   True
       AllowFocus      =   False
@@ -81,7 +81,7 @@ Begin DesktopWindow WindowAbout
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   295
+      Width           =   296
    End
    Begin DesktopLabel Label_PM
       AllowAutoDeactivate=   True
@@ -114,40 +114,7 @@ Begin DesktopWindow WindowAbout
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   295
-   End
-   Begin DesktopLabel Label_X
-      AllowAutoDeactivate=   True
-      Bold            =   False
-      Enabled         =   True
-      FontName        =   "System"
-      FontSize        =   0.0
-      FontUnit        =   0
-      Height          =   20
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   382
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   True
-      LockTop         =   True
-      Multiline       =   False
-      Scope           =   0
-      Selectable      =   False
-      TabIndex        =   5
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   "@gvillena80"
-      TextAlignment   =   0
-      TextColor       =   &c0000FF00
-      Tooltip         =   ""
-      Top             =   145
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   97
+      Width           =   296
    End
    Begin DesktopTextArea TextArea_Disclaimer
       AllowAutoDeactivate=   True
@@ -169,7 +136,7 @@ Begin DesktopWindow WindowAbout
       HideSelection   =   True
       Index           =   -2147483648
       Italic          =   False
-      Left            =   20
+      Left            =   21
       LineHeight      =   0.0
       LineSpacing     =   1.0
       LockBottom      =   False
@@ -188,7 +155,7 @@ Begin DesktopWindow WindowAbout
       TextAlignment   =   0
       TextColor       =   &c00000000
       Tooltip         =   ""
-      Top             =   298
+      Top             =   312
       Transparent     =   True
       Underline       =   False
       UnicodeMode     =   0
@@ -207,7 +174,7 @@ Begin DesktopWindow WindowAbout
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   True
-      Left            =   20
+      Left            =   21
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -223,7 +190,7 @@ Begin DesktopWindow WindowAbout
       TextAlignment   =   0
       TextColor       =   &cC0C0C000
       Tooltip         =   ""
-      Top             =   278
+      Top             =   292
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -243,7 +210,7 @@ Begin DesktopWindow WindowAbout
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   199
+      Left            =   200
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -255,7 +222,7 @@ Begin DesktopWindow WindowAbout
       TabPanelIndex   =   0
       TabStop         =   True
       Tooltip         =   ""
-      Top             =   448
+      Top             =   462
       Transparent     =   True
       Underline       =   False
       Visible         =   True
@@ -268,7 +235,7 @@ Begin DesktopWindow WindowAbout
       FontName        =   "System"
       FontSize        =   0.0
       FontUnit        =   0
-      Height          =   61
+      Height          =   62
       Index           =   -2147483648
       Italic          =   False
       Left            =   20
@@ -283,7 +250,7 @@ Begin DesktopWindow WindowAbout
       TabIndex        =   17
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   "This software is open source under the GPL-3.0 license. Source code is available on Github."
+      Text            =   "Developed by Gabriel Villena Fernández.\nThis software is open source under the GPL-3.0 license. Source code is available on Github. https://github.com/GabrielVF/Yja-Password-Manager"
       TextAlignment   =   2
       TextColor       =   &c000000
       Tooltip         =   ""
@@ -291,7 +258,7 @@ Begin DesktopWindow WindowAbout
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   360
+      Width           =   458
    End
    Begin DesktopSeparator Separator1
       Active          =   False
@@ -321,31 +288,6 @@ Begin DesktopWindow WindowAbout
       _mName          =   ""
       _mPanelIndex    =   0
    End
-   Begin DesktopCanvas Canvas_Github
-      AllowAutoDeactivate=   True
-      AllowFocus      =   False
-      AllowFocusRing  =   True
-      AllowTabs       =   False
-      Backdrop        =   216717311
-      Enabled         =   True
-      Height          =   42
-      Index           =   -2147483648
-      Left            =   392
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Scope           =   0
-      TabIndex        =   19
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Tooltip         =   ""
-      Top             =   192
-      Transparent     =   True
-      Visible         =   True
-      Width           =   86
-   End
    Begin DesktopSeparator Separator2
       Active          =   False
       AllowAutoDeactivate=   True
@@ -365,7 +307,7 @@ Begin DesktopWindow WindowAbout
       TabIndex        =   20
       TabPanelIndex   =   0
       Tooltip         =   ""
-      Top             =   246
+      Top             =   280
       Transparent     =   False
       Visible         =   True
       Width           =   459
@@ -374,39 +316,7 @@ Begin DesktopWindow WindowAbout
       _mName          =   ""
       _mPanelIndex    =   0
    End
-   Begin DesktopLabel Label1_byGV
-      AllowAutoDeactivate=   True
-      Bold            =   False
-      Enabled         =   True
-      FontName        =   "System"
-      FontSize        =   0.0
-      FontUnit        =   0
-      Height          =   20
-      Index           =   -2147483648
-      Italic          =   False
-      Left            =   262
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Multiline       =   False
-      Scope           =   0
-      Selectable      =   False
-      TabIndex        =   21
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   "by Gabriel Villena."
-      TextAlignment   =   0
-      TextColor       =   &c000000
-      Tooltip         =   ""
-      Top             =   145
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   118
-   End
-   Begin DesktopLabel Label1_byGV1
+   Begin DesktopLabel Label1_bw
       AllowAutoDeactivate=   True
       Bold            =   False
       Enabled         =   True
@@ -428,7 +338,7 @@ Begin DesktopWindow WindowAbout
       TabIndex        =   22
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   "but worse. v1.0"
+      Text            =   "but worse."
       TextAlignment   =   2
       TextColor       =   &c000000
       Tooltip         =   ""
@@ -436,7 +346,104 @@ Begin DesktopWindow WindowAbout
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   217
+      Width           =   118
+   End
+   Begin DesktopLabel Label_X
+      AllowAutoDeactivate=   True
+      Bold            =   False
+      Enabled         =   True
+      FontName        =   "System"
+      FontSize        =   14.0
+      FontUnit        =   0
+      Height          =   20
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   322
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      Multiline       =   False
+      Scope           =   0
+      Selectable      =   False
+      TabIndex        =   5
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Text            =   "@gvillena80"
+      TextAlignment   =   0
+      TextColor       =   &c0433FF00
+      Tooltip         =   ""
+      Top             =   248
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   98
+   End
+   Begin DesktopLabel Label_version
+      AllowAutoDeactivate=   True
+      Bold            =   False
+      Enabled         =   True
+      FontName        =   "System"
+      FontSize        =   18.0
+      FontUnit        =   0
+      Height          =   20
+      Index           =   -2147483648
+      Italic          =   False
+      Left            =   369
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Multiline       =   False
+      Scope           =   0
+      Selectable      =   False
+      TabIndex        =   23
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Text            =   "v1.0 (130)"
+      TextAlignment   =   0
+      TextColor       =   &c000000
+      Tooltip         =   ""
+      Top             =   98
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   110
+   End
+   Begin DesktopLabel Label_Mail
+      AllowAutoDeactivate=   True
+      Bold            =   False
+      Enabled         =   True
+      FontName        =   "System"
+      FontSize        =   14.0
+      FontUnit        =   0
+      Height          =   20
+      Index           =   -2147483648
+      Italic          =   False
+      Left            =   80
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   True
+      LockTop         =   True
+      Multiline       =   False
+      Scope           =   0
+      Selectable      =   False
+      TabIndex        =   24
+      TabPanelIndex   =   0
+      TabStop         =   True
+      Text            =   "gabrielvillena@icloud.com"
+      TextAlignment   =   0
+      TextColor       =   &c0433FF00
+      Tooltip         =   ""
+      Top             =   248
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   231
    End
 End
 #tag EndDesktopWindow
@@ -444,6 +451,13 @@ End
 #tag WindowCode
 #tag EndWindowCode
 
+#tag Events PushButton_Close
+	#tag Event
+		Sub Pressed()
+		  Self.Close
+		End Sub
+	#tag EndEvent
+#tag EndEvents
 #tag Events Label_X
 	#tag Event
 		Function MouseDown(x As Integer, y As Integer) As Boolean
@@ -459,25 +473,25 @@ End
 	#tag EndEvent
 	#tag Event
 		Sub MouseExit()
-		  Me.TextColor = RGB(0,0,255)
+		  Me.TextColor = RGB(4,51,255)
 		  MouseCursor = System.Cursors.StandardPointer
 		End Sub
 	#tag EndEvent
 	#tag Event
 		Sub MouseEnter()
-		  Me.TextColor = RGB(0,0,150)
+		  Me.TextColor = RGB(4,45,255)
 		  MouseCursor = System.Cursors.FingerPointer
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events PushButton_Close
+#tag Events Label_version
 	#tag Event
-		Sub Pressed()
-		  Self.Close
+		Sub Opening()
+		  me.Text = "v"+app.Version+" ("+app.NonReleaseVersion.ToString+")"
 		End Sub
 	#tag EndEvent
 #tag EndEvents
-#tag Events Canvas_Github
+#tag Events Label_Mail
 	#tag Event
 		Function MouseDown(x As Integer, y As Integer) As Boolean
 		  Return True
@@ -485,19 +499,21 @@ End
 		End Function
 	#tag EndEvent
 	#tag Event
-		Sub MouseEnter()
-		  MouseCursor = System.Cursors.FingerPointer
+		Sub MouseUp(x As Integer, y As Integer)
+		  _
+		  ShowURL("mailto:gabrielvillena@icloud.com")
 		End Sub
 	#tag EndEvent
 	#tag Event
 		Sub MouseExit()
+		  Me.TextColor = RGB(4,51,255)
 		  MouseCursor = System.Cursors.StandardPointer
 		End Sub
 	#tag EndEvent
 	#tag Event
-		Sub MouseUp(x As Integer, y As Integer)
-		  _
-		  ShowURL("https://github.com/GabrielVF/Yja-Password-Manager")
+		Sub MouseEnter()
+		  Me.TextColor = RGB(4,45,255)
+		  MouseCursor = System.Cursors.FingerPointer
 		End Sub
 	#tag EndEvent
 #tag EndEvents
